@@ -1,0 +1,66 @@
+:root {
+  box-sizing: border-box;
+  font-size: calc(1vw + 0.6em);
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: tomato;
+}
+
+.logo {
+  margin-left: 1em;
+}
+
+.menu__container {
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+.menu__item {
+  display: inline-block;
+  padding: .5em .8em;
+}
+
+.menu__item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.2em;
+  color: #fff;
+}
+
+.about {
+  background-color: #000;
+}
+
+.benefits {
+  background-color: tomato;
+}
+
+.faq {
+  background-color: crimson;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  padding: 1em;
+}
