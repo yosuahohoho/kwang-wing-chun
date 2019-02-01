@@ -12,10 +12,13 @@
 body {
   margin: 0;
   padding: 0;
+  line-height: 1.4;
 }
 
 header {
   display: flex;
+  position: fixed;
+  width: 100vw;
   flex-direction: column;
   background-color: #000;
   box-shadow: 0 .5em .8em rgba(0, 0, 0, 0.4);
@@ -84,7 +87,6 @@ header {
   max-width: 960px;
   margin: 0 auto;
   padding: 1.2em;
-  color: #000;
 }
 
 .about {
@@ -92,7 +94,37 @@ header {
 }
 
 .benefits {
-  background-color: tomato;
+  background-color: #344842;
+  color: #fff;
+}
+
+.benefits__title {
+  margin-bottom: 3em;
+}
+
+.media {
+  display: flex;
+  margin-bottom: 1.2em;
+}
+
+.media__icon {
+  flex: 30%;
+  padding: .5em;
+  text-align: center;
+  margin-right: 1em;
+}
+
+.media__body {
+  flex: 70%;
+  margin-top: 0;
+}
+
+.media__body__title {
+  margin: 0;
+}
+
+.media__body__content {
+  margin-top: 0.8em;;
 }
 
 .faq {
